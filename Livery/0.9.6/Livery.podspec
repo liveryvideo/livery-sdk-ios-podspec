@@ -1,5 +1,3 @@
-require "json"
-
 Pod::Spec.new do |s|
   s.name      = "Livery"
   s.summary   = "Livery SDK"
