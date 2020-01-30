@@ -11,3 +11,13 @@ machine sdk-ios-binaries.liveryvideo.com
   login YOUR_USERNAME
   password YOUR_PASSWORD
 ```
+
+Now add the source to your `Podfile`:
+
+```ruby
+source 'https://bitbucket.org/exmachina/livery-sdk-podspec.git'
+
+target 'MyProject' do
+  pod "Livery", "0.9.6"
+end
+```
