@@ -18,6 +18,6 @@ Now add the source to your `Podfile`:
 source 'https://github.com/exmg/livery-sdk-ios-podspec.git'
 
 target 'MyProject' do
-  pod "Livery", "0.9.6"
+  pod "Livery", "0.9.8"
 end
 ```
