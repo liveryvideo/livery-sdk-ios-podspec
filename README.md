@@ -15,6 +15,7 @@ machine sdk-ios-binaries.liveryvideo.com
 Now add the source to your `Podfile`:
 
 ```ruby
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/exmg/livery-sdk-ios-podspec.git'
 
 target 'MyProject' do
