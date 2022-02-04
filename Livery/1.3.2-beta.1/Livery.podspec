@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.dependency "TrueTime", "~> 5.0.3"
   s.dependency "Sentry", "~> 6.2"
   s.dependency "google-cast-sdk-no-bluetooth-dynamic-ios", "~> 4.4"
-  s.vendored_frameworks = 'Livery.framework'
+  s.vendored_frameworks = 'Livery.xcframework'
 end
