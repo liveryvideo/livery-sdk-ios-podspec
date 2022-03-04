@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
   s.dependency "AWSPinpoint", "~> 2.26"
   s.dependency "Sentry", "~> 6.2"
+  s.dependency "Kronos", "~> 4.2"
   s.dependency "google-cast-sdk-no-bluetooth-dynamic-ios", "~> 4.4"
   s.vendored_frameworks = 'Livery.xcframework'
 end
