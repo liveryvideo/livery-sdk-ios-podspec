@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage  = "https://liveryvideo.com/"
     s.authors   = "Livery"
     s.platforms = { :ios => "14.0" }
-    s.source    = { :http => "https://sdk-ios-binaries.liveryvideo.com/releases/Livery-#{s.version}.zip" }
+    s.source    = { :http => "https://sdk-ios-binaries.livery.live/releases/Livery-#{s.version}.zip" }
     s.license   = { :type => "PROPRIETARY", :text => 'Contact LIVERY B.V for license details' }
 
     s.source_files = []
