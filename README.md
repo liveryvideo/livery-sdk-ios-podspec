@@ -19,7 +19,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/liveryvideo/livery-sdk-ios-podspec.git'
 
 target 'MyProject' do
-    pod "Livery", "1.3.0"
+    pod "Livery", "3.2.0"
 end
 ```
 
